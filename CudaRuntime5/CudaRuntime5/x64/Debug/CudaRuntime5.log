@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\VisualStudioProject\CudaRuntime5\CudaRuntime5>"D:\Program Files\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"D:\Program Files\include" -I"D:\Program Files\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc142.pdb" -o D:\VisualStudioProject\CudaRuntime5\CudaRuntime5\x64\Debug\kernel.cu.obj "D:\VisualStudioProject\CudaRuntime5\CudaRuntime5\kernel.cu" 
+D:\VisualStudioProject\CudaRuntime5\CudaRuntime5\kernel.cu(10): warning #174-D: expression has no effect
+            deviceProp.maxThreadsPerBlock;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\VisualStudioProject\CudaRuntime5\CudaRuntime5\kernel.cu(10): warning #174-D: expression has no effect
+            deviceProp.maxThreadsPerBlock;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00006b14_00000000-7_kernel.cudafe1.cpp
+    正在创建库 D:\VisualStudioProject\CudaRuntime5\x64\Debug\CudaRuntime5.lib 和对象 D:\VisualStudioProject\CudaRuntime5\x64\Debug\CudaRuntime5.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CudaRuntime5.vcxproj -> D:\VisualStudioProject\CudaRuntime5\x64\Debug\CudaRuntime5.exe
